@@ -16,6 +16,13 @@ html {
 *:after {
   box-sizing: inherit;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
 
 /* GLOBALS */
 ul {
@@ -173,4 +180,13 @@ figure {
 .call-to-action button {
   outline: 2px solid;
   font-weight: 900;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: var(--main-bg-color);
+  text-align: center;
+  padding: 16px;
+  color: var(--secondary-text-color);
 }
