@@ -1,0 +1,18 @@
+:root {
+  --main-bg-color: #1f2937;
+  --main-text-color: #f9faf8;
+  --secondary-text-color: #e5e7eb;
+  --button-color: #3882f6;
+  --tertiary-text-color: #1f2937;
+  --font-family: "Roboto", sans-serif;
+}
+html {
+  font-family: var(--font-family);
+  font-style: normal;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
