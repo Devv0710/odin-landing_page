@@ -102,3 +102,33 @@ figure {
   display: flex;
   justify-content: center;
 }
+
+/* INFORMATION */
+
+.information {
+  padding: 58px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+.information h2 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.information .cards {
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.information .card {
+  max-width: 200px;
+  text-align: center;
+}
+
+.information img {
+  border-radius: 10px;
+}
