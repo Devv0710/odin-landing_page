@@ -16,3 +16,44 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+/* GLOBALS */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: var(--main-bg-color);
+  font-size: 18px;
+  padding: 16px;
+}
+
+header a {
+  color: var(--main-text-color);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+.nav-links a {
+  color: var(--secondary-text-color);
+}

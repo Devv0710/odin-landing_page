@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,9 +15,9 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#">Header Logo</a>
-        <ul>
+      <nav class="container nav">
+        <a href="#" class="nav-logo">Header Logo</a>
+        <ul class="nav-links">
           <li><a href="#">header link one</a></li>
           <li><a href="#">header link two</a></li>
           <li><a href="#">header link three</a></li>
@@ -24,16 +25,18 @@
       </nav>
     </header>
     <main>
-      <section class="hero">
-        <h1>This website is awesome</h1>
-        <p>
-          this website has some subtext that goes here unde the main titlte.
-          It's smaller font and the color is lower contrast
-        </p>
-        <button>Sign up</button>
-        <figure>
-          <img src="" alt="" />
-        </figure>
+        <div class="container">
+            <section class="hero">
+              <h1>This website is awesome</h1>
+              <p>
+                this website has some subtext that goes here unde the main titlte.
+                It's smaller font and the color is lower contrast
+              </p>
+              <button>Sign up</button>
+              <figure>
+                <img src="" alt="" />
+              </figure>
+        </div>
       </section>
       <section class="information">
         <h2>Some random infomation</h2>
